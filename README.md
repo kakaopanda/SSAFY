@@ -26,6 +26,11 @@
 |:---|
 |![ClassDiagram](https://user-images.githubusercontent.com/63866366/203902638-b54914ab-240f-42c9-adc0-a1e400cbe956.png)| 
 
+|테이블 구조도(Entity Relationship Diagram)|
+|:---|
+|![Entity Relationship Diagram](https://user-images.githubusercontent.com/63866366/203906268-f16aa36c-24de-4a6d-852a-deda4266538d.png)| 
+
+
 ### #5. 사용자 인터페이스(UI, User Interface) 설계 및 구현
 |사용자 인터페이스(UI, User Interface)(1)|
 |:---|
