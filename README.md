@@ -28,7 +28,7 @@
 
 |테이블 구조도(Entity Relationship Diagram)|
 |:---|
-|![ERD](https://user-images.githubusercontent.com/63866366/203906542-848359a1-7f4a-440a-bfb2-fdadb36cec6d.png)| 
+|![Entity Relationship Diagram](https://user-images.githubusercontent.com/63866366/203906639-b74ee8c4-84e7-466e-a723-6e360200fc54.png)| 
 
 
 ### #5. 사용자 인터페이스(UI, User Interface) 설계 및 구현
