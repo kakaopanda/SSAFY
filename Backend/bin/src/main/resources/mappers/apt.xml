@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.vue.model.mapper.HouseMapMapper">
+	<resultMap type="houseInfoDto" id="houseInfo">
+		<result column="aptCode" property="aptCode"/>
+		<result column="apartmentName" property="aptName"/>
+		<result column="" property="buildYear"/>
+		<result column="" property="dongCode"/>
+		<result column="dongname" property="dongName"/>
+		<result column="gugunName" property="gugunName"/>
+		<result column="" property="img"/>
+		<result column="" property="jibun"/>
+		<result column="lat" property="lat"/>
+		<result column="lng" property="lng"/>
+		<result column="dealAmount" property="recentPrice"/>
+		<result column="sidoName" property="sidoName"/>	
+		<result column="area" property="area"/>	
+		<result column="floor" property="floor"/>	
+		<result column="dealYear" property="dealYear"/>			
+		<result column="dealMonth" property="dealMonth"/>			
+		<result column="dealDay" property="dealDay"/>			
+	</resultMap>
+	
+	<select id="getSido" resultType="sidoGugunCodeDto">
+		select left(sidoCode,2) sidoCode, sidoName
+		from sidocode
+		order by sidoCode
+	</select>
+	
+	<select id="getGugunInSido" parameterType="string" resultType="sidoGugunCodeDto">
+		select left(gugunCode,5) gugunCode, gugunName
+		from guguncode
+		where left(gugunCode,2) = #{sido}
+		order by gugunCode
+	</select>
+	
+	<select id="getDongInGugun" parameterType="string" resultType="houseInfoDto">
+		select distinct dongName, dongCode
+		from houseinfo
+		where left(dongCode, 5) = #{gugun}
+		order by dongName
+	</select>
+	
+	<!--select id="getAptInDong" parameterType="string" resultType="houseInfoDto">
+		select h.aptCode, h.aptName, h.buildyear, h.dongCode, h.dongName, h.jibun, h.lat, h.lng, si.sidoname, gu.gugunname,
+				(select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) recentPrice
+		from houseinfo h
+		left join sidocode si
+		on left(h.dongcode,2) = left(si.sidocode,2)
+		left join guguncode gu
+		on left(h.dongcode,5) = left(gu.guguncode,5)
+		where dongCode = #{dong} 
+		order by aptName
+	
+	</select-->
+	
+	<select id="getAptInDong" parameterType="string" resultMap="houseInfo">
+		select d.no, d.dealAmount, d.dealYear, d.dealMonth, d.dealDay, d.area, d.floor, d.aptCode, h.apartmentName, h.lat, h.lng, c.sidoName, c.gugunName, c.dongname
+		from housedeal d inner join houseinfo h
+		on d.aptCode = h.aptCode
+		inner join dongCode c
+		on h.dongCode = c.dongCode
+		where h.dongCode = #{dong}
+	</select>
+	
+</mapper>
