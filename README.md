@@ -6,7 +6,6 @@
 |:---|
 |(1). Web Architecture를 이해하고 활용하여 Web Project를 설계하고 구현할 수 있다. <br>
 ![image](https://user-images.githubusercontent.com/63866366/203900991-d22f5820-2537-43c2-b191-e139b99cdc9f.png)
-|
 
 ### #2. 프로젝트 요구사항
 |기존 서비스 분석결과 및 차별점 제시|
