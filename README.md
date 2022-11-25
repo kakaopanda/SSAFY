@@ -7,7 +7,8 @@
 |(1). Web Architecture를 이해하고 활용하여 Web Project를 설계하고 구현할 수 있다. <br>
 (2). Spring & MyBatis Framework, Spring Boot, Vue.js를 이해하고 활용할 수 있다. <br>
 (3). OAuth 로그인, REST API등의 기술을 활용하여 MSA를 도입해 본다. <br>
-(4). 지역별 코로나 현황 등을 추가로 구현한다.|
+(4). 지역별 코로나 현황 등을 추가로 구현한다.|![image](https://user-images.githubusercontent.com/63866366/203901186-877b488a-2a43-4d25-bfe5-30fe08acf74d.png)
+
 
 ### #2. 프로젝트 요구사항
 |기존 서비스 분석결과 및 차별점 제시|
