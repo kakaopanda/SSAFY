@@ -20,7 +20,7 @@
 ### #4. 프로젝트 설계서
 |요구사항 정의서(Usecase Diagram)|
 |:---|
-|![Architecture](https://user-images.githubusercontent.com/63866366/174474796-ce59921f-876c-48ac-9028-6d109f9edec6.png)| 
+|![UsecaseDiagram](https://user-images.githubusercontent.com/63866366/203904515-cc980f8c-9187-4978-b4ce-e2920374fb71.png)| 
 
 ### #5. 사용자 인터페이스(UI, User Interface) 설계 및 구현
 |사용자 인터페이스(UI, User Interface)(1)|
