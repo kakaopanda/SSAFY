@@ -2,18 +2,18 @@
 ***
  
 ### #1. 기획 배경 및 목표
-|프로젝트 목표 및 사용 데이터|
+|프로젝트 목표 및 사용 데이터(Project Objectives And Usage Data)|
 |:---|
 |![ProjectTarget](https://user-images.githubusercontent.com/63866366/203905532-fbae0f65-afbe-43ca-bd82-6c8f06265dfc.png)|
 
 
 ### #2. 프로젝트 요구사항
-|기능적 요구사항 및 비기능적 요구사항|
+|기능적 요구사항 및 비기능적 요구사항(Functional And Non-Functional Requirements)|
 |:---|
 |![ProjectRequirements](https://user-images.githubusercontent.com/63866366/203905760-bfe71231-d10f-4c3f-b4be-9780538117de.png)|
 
 ### #3. 개발환경 및 시스템 구조
-|개발언어 및 프레임워크|
+|개발언어 및 프레임워크(Development Language and Framework)|
 |:---|
 |![Environment](https://user-images.githubusercontent.com/63866366/203906000-fffd49cc-ccd8-457b-aa24-2b7ae106a7a5.png)| 
 
