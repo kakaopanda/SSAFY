@@ -21,6 +21,7 @@
 |유스케이스 다이어그램(Usecase Diagram)|
 |:---|
 |![UsecaseDiagram](https://user-images.githubusercontent.com/63866366/203904515-cc980f8c-9187-4978-b4ce-e2920374fb71.png)| 
+
 |클래스 다이어그램(Class Diagram)|
 |:---|
 |![ClassDiagram](https://user-images.githubusercontent.com/63866366/203902638-b54914ab-240f-42c9-adc0-a1e400cbe956.png)| 
