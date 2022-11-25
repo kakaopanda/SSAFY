@@ -4,7 +4,7 @@
 ### #1. 기획 배경 및 목표
 |프로젝트 목표 및 사용 데이터|
 |:---|
-|![ProjectTarget](https://user-images.githubusercontent.com/63866366/203905149-51ed8ab7-8d0e-4c5b-996c-ab32057b5e7f.png)|
+|![ProjectTarget](https://user-images.githubusercontent.com/63866366/203905268-df470254-cafb-4d4a-9fd5-62f9cc75c101.png)|
 
 
 ### #2. 프로젝트 요구사항
